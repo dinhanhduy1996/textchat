@@ -24,7 +24,7 @@ app.get('/', function(req, res){
             });
         });
 
-    const port = process.env.PORT || 5000;
+    const port =5000;
 server.listen(port,()=>{
     console.log('server dang chay');
     console.log(port);
