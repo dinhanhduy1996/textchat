@@ -24,5 +24,5 @@ const io = require('socket.io')(server, {
     const port = process.env.PORT || 5000;
 server.listen(port,()=>{
     console.log('server dang chay');
-
+    console.log(port);
 });
